@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.spanText{
+  display: none;
+  
+}
+
+
+.icon:hover + .spanText{
+  display: block;
+  opacity: 80%;
+  transition: display 10s ease-in-out;
+}
+/* .icon:hover,  .spanText{
+  display: block;
+  color: black;
+} */
+
